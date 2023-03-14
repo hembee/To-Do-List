@@ -19,10 +19,12 @@ body {
 
 .add--menu {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(42, 48, 42);
   padding: 2em;
   margin-bottom: 2em;
-  width: 80vw;
+  width: 30vw;
   border-radius: 20px;
 }
 
@@ -80,7 +82,7 @@ input {
 
 #todo-list {
   text-align: center;
-  width: 80vw;
+  width: 30vw;
   border-radius: 20px;
   margin-bottom: 30px;
   display: flex;
@@ -127,5 +129,9 @@ footer {
 @media (max-width: 700px) {
   .submit--btn {
     margin-left: 0;
+  }
+  #todo-list,
+  .add--menu {
+    width: 80vw;
   }
 }
